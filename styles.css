@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&display=swap');
+
+@keyframes glow-animation {
+    0% {
+        text-shadow: 0 0 10px rgba(0, 119, 215), 0 0 20px rgb(0, 119, 215), 0 0 30px rgba(0, 119, 215);
+    }
+    100% {
+        text-shadow: 0 0 20px rgb(255, 255, 255), 0 0 40px rgba(255, 255, 255, 0.8), 0 0 60px rgba(255, 255, 255, 0.6);
+    }
+}
+
+/* Privilégier les % au pixels pour rendre le site plus responsive */
+
+html, body {
+    height: 100%;
+    overflow: auto;
+    background-color: transparent;
+}
+
+.container { /* Classe à appliquer afin de séparer certains éléments sans toucher au body */
+    display: flex;
+    justify-content: center;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5559da45e4b0f0ee9b7c4910/1544705434572-PKOATLBWDKZ1HSIJPWJM/Desktop+Screenshot+2018.12.05+-+16.27.35.24.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    filter: blur(5px);
+    z-index: -1;
+}
+
+.search_bar {
+    background-color: rgba(123, 123, 123, 0.527);
+    height: 4%;
+    width: 20%;
+    top: 30%;
+    border: 2px solid;
+    position: relative;
+    left: 75%;
+}
+
+.main_title {
+    padding: 5px;
+    font-family:"Josefin SANS", sans-serif;
+    font-weight: 100;
+    font-size: 80px;
+    text-align: center;
+    text-shadow: 0 0 1px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.7), 0 0 30px rgba(255, 255, 255, 0.6);
+    animation: glow-animation 1.5s infinite alternate
+}
+
+.titles {
+    font-family: "Josefin SANS", sans-serif;
+    font-size: 25px;
+    margin: 8px 0;
+    color: white;
+    text-align: center;
+}
+
+.grey_titles {
+    color: rgb(148, 148, 148);
+}
+
+.texts {
+    color: white;
+    font-family: "Josefin SANS", sans-serif;
+    font-size: 20px;
+    text-align: left;
+}
+
+.bandeau {
+    background-color:rgb(4, 20, 92);
+    display: flex;
+    height: 6%;
+    width: 100%;
+}
+
+.bandeau_top {
+    top: 0;
+    left: 0;
+    position: fixed; /* Reste bloqué tout en haut de la page malgré le scrolling */
+    z-index: 10;
+}
+
+
+.logo {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 90%;
+    width: auto; /* Scale auto afin de garder les bonnes dimensions de l'image */
+}
+
+.logo_bottom {
+    bottom: 50%;
+    position: relative;
+}
+
+.login {
+    position: absolute; /* Positionne le texte par rapport au parent "le bandeau" */
+    top: 35%; /* Centrer vertivalement */
+    left: 82%; /* Positionne le texte tout à droite du bandeau */
+    font-family: "Josefin SANS", sans-serif;
+    font-size: 20px;
+    font-weight: 400; /* Equivalent pour du bold classique : 700 */
+    color: white;
+}
+
+.main_cadre {
+    width: 1000px; /* Largeur du cadre */
+    height: 800px; /* Hauteur du cadre */
+    margin-left: 15%;
+    margin-right: 30px;
+    position: relative;
+    border: 2px solid rgb(209, 209, 209);
+    border-radius: 20px;
+    /* border-radus: 50%; = un cadre parfaitement rond */
+    background-color: rgb(12, 12, 27);
+    padding: 10px;
+    text-align: center;
+}
+
+.inner_cadres {
+    background-color: rgb(12, 12, 27);
+    border: 2px solid rgb(209, 209, 209);
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 3%;
+}
+
+.separator {
+    margin: 20px auto;
+    border-top: 1px solid rgb(172, 172, 172); /* Border-top pour tricher et faire une ligne en mettant qu'une seule bordure en blanc */
+}
+
