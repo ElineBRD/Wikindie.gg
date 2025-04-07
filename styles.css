@@ -33,7 +33,7 @@ html, body {
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-    filter: blur(5px);
+    filter: blur(0px);
     z-index: -1;
 }
 
@@ -41,13 +41,13 @@ html, body {
     background-color: rgba(123, 123, 123, 0.527);
     height: 4%;
     width: 20%;
-    top: 30%;
     border: 2px solid;
     position: relative;
     left: 75%;
 }
 
 .main_title {
+    color: white;
     padding: 5px;
     font-family:"Josefin SANS", sans-serif;
     font-weight: 100;
