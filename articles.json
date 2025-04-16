@@ -1,0 +1,75 @@
+[
+    {
+        "titre": "Outer Wild",
+        "auteur": "Ophylenn",
+        "contenu": "Outer Wilds est un jeu d'exploration spaciale abordant de magnifiques sujets vous laissant l'exploration libre.",
+        "tags": [
+            "independant",
+            "aventure",
+            "solo"
+        ]
+    },
+    {
+        "titre": "Animal Well",
+        "auteur": "Kemette",
+        "contenu": "Animal Well est un jeu ind\u00e9pendant sorti en 2018 qui regorge de secrets de tous types. Des secrets lambas aux immenses ARG encore irr\u00e9solus, cet univers nous r\u00e9serve encore bien des surprises.",
+        "tags": [
+            "independant",
+            "solo",
+            "pixel art",
+            "animaux"
+        ]
+    },
+    {
+        "titre": "Hollow Knight",
+        "auteur": "Jahy\u00e4",
+        "contenu": "Hollow Knight est un jeu ind\u00e9pendant d\u00e9velopp\u00e9 par une toute petit \u00e9quipe de d\u00e9veloppeurs passion\u00e9s. L'histoire du jeu est tr\u00e8s complexe et r\u00e9fl\u00e9chie de sorte \u00e0 r\u00e9compenser les joueurs curieux cherchant \u00e0 comprendre l'univers d'Hollow Knight.",
+        "tags": [
+            "ind\u00e9pendant",
+            "souls like",
+            "metroidvania",
+            "2D"
+        ]
+    },
+    {
+        "titre": "Test proprosition",
+        "auteur": "Ophy",
+        "contenu": "Oui bonjour ceci est un test pour les mails",
+        "tags": [
+            "jsp",
+            "oui",
+            "mail",
+            "oui",
+            "non"
+        ]
+    },
+    {
+        "titre": "Tunic",
+        "auteur": "Keriya",
+        "contenu": "Tunic est un jeu ind\u00e9pendant tirant son inspiration de la s\u00e9rie \"The Legend of Zelda\". Le gameplay est innovant. Vous pouvez tr\u00e8s bien terminer le jeu de mani\u00e8re lin\u00e9aire en suivant la trame comme elle arrive, vous le pourrez compl\u00e8tement. Cependant, le jeu regorge d'immenses secrets tr\u00e8s difficiles \u00e0 d\u00e9couvrir dont certains n\u00e9cessitaient la grande participation d'une communaut\u00e9 de fans soud\u00e9e et pr\u00eate \u00e0 s'entraider afin de mettre \u00e0 jour les moindres recoins de ce jeu aux possibilit\u00e9s infiniement complexes.",
+        "tags": [
+            "ind\u00e9pendant",
+            "solo",
+            "\u00e9nigmes"
+        ]
+    },
+    {
+        "titre": "League of legends",
+        "auteur": "JeJaimeBagarre",
+        "contenu": "la jungle diff",
+        "tags": [
+            "garen",
+            "warwick",
+            "nashor"
+        ]
+    },
+    {
+        "titre": "flash info!!!!!!  25 ans de bitEEEEEE!",
+        "auteur": "Iloveeeeeeeee",
+        "contenu": "c'estmoi!",
+        "tags": [
+            "#fyp",
+            "#tH\u00e9o"
+        ]
+    }
+]
