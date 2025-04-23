@@ -4,7 +4,7 @@ let liste_articles =[]; // let = permet de modifier la variable plus tard (ex: a
 
 try {
     const data = fs.readFileSync('articles.json', 'utf8'); // Tout e contenu du fichier est contenu dans la variable "data"
-    liste_articles = JSON.parse(data); 
+    liste_articles = JSON.parse(data); // Convertir une chaîne JSON en objet ou tableau js
 } catch (error) {
     console.log("Je n'arrive pas à accéder à articles.json.");
     liste_articles = [];

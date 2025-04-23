@@ -17,6 +17,9 @@ html, body {
     background-color: transparent;
 }
 
+.hollow_knight {
+    
+}
 .container { /* Classe à appliquer afin de séparer certains éléments sans toucher au body */
     display: flex;
     justify-content: center;
@@ -105,6 +108,28 @@ html, body {
     position: relative;
 }
 
+.image_grid_section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 40px;
+    justify-items: center;
+    margin-top: 50px;
+}
+
+.image_grid_item {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.image_grid_item:hover { /* Permet de donner un effet lorsque l'on survole l'image */
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+
 .login {
     position: absolute; /* Positionne le texte par rapport au parent "le bandeau" */
     top: 35%; /* Centrer vertivalement */
@@ -117,7 +142,7 @@ html, body {
 
 .main_cadre {
     width: 1000px; /* Largeur du cadre */
-    height: 800px; /* Hauteur du cadre */
+    height: 1800px; /* Hauteur du cadre */
     margin-left: 15%;
     margin-right: 30px;
     position: relative;
@@ -137,8 +162,20 @@ html, body {
     margin-top: 3%;
 }
 
+.side_cadres {
+    background-color: rgb(12, 12, 27);
+    border: 2px solid rgb(209, 209, 209);
+    border-radius: 20px;
+}
+
 .separator {
     margin: 20px auto;
     border-top: 1px solid rgb(172, 172, 172); /* Border-top pour tricher et faire une ligne en mettant qu'une seule bordure en blanc */
 }
 
+.left_sidebar {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap : 15px;
+}
